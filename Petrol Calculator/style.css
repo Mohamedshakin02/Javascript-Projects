@@ -1,5 +1,5 @@
 body {
-    background-color: #F4EBD3;                           /* it sets background color  */
+    background-color: #31304D;                           /* it sets background color  */
     margin: auto;                                           /* It fits contents to full screen */
     font-family: Arial, Helvetica, sans-serif;             /* it sets font family to Arial */
 }
@@ -13,8 +13,9 @@ body {
     display: flex;                                    /* it sets all elements placed in next to each other*/
     flex-direction: column;                           /* it sets all elements place in colum-wise*/
     border-radius: 5px;                              /* it sets border radius to 5px*/
-    padding: 10px;                                   /* it sets distance between the content and border to 10px*/
-    box-shadow: 0px 1px 5px 1px gray;              /*sets border shadow in the box with horizontally 0px, vertically 1px, blurness of 5px, radius of 1px and color of black*/ 
+    padding: 10px; 
+    border: 2px solid white;                                  /* it sets distance between the content and border to 10px*/
+    box-shadow: 10px 10px 0px 0px white;              /*sets border shadow in the box with horizontally 0px, vertically 1px, blurness of 5px, radius of 1px and color of black*/ 
     color: white;                                 /* it sets text color  */
 }
 
